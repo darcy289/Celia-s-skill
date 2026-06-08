@@ -1,0 +1,16 @@
+{
+  "name": "kpop-mv-prompt-director-skill",
+  "version": "1.0.0",
+  "language": "zh-CN",
+  "entrypoint": "SKILL.md",
+  "description": "输入 K-pop 风格或团体名，生成 13 镜 MV 视频提示词包，适配 Seedance 2.0 和千问视频模型。",
+  "data_files": [
+    "data/style_dna.json",
+    "data/shot_templates.json"
+  ],
+  "tools_supported": [
+    "seedance",
+    "qwen",
+    "both"
+  ]
+}
